@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body {
+
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    font-family: "kumbh Sans";
+    color: hsl(222, 5%, 63%);
+}
+
+.container{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.perfil{
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.nome{
+    font-weight: 700;
+}
+
+.pais{
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid hsl(220, 2%, 76%);
+}
+
+.dados{
+    flex-direction: row;
+
+}
+
+.dados .flex{
+    padding: 20px;
+}
+
+strong{
+    color: black;
+}
