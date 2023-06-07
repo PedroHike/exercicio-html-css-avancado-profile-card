@@ -3,57 +3,52 @@
 
 
 body {
-
     background-color: hsl(185, 75%, 39%);
     height: 100vh;
     font-family: "kumbh Sans";
-    color: hsl(222, 5%, 63%);
-}
-
-.container{
-    background-color: white;
-    border-radius: 8px;
-}
-
-.perfil{
-    width: 100%;
-}
-
-.flex {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
+
+.card{
+    background-color: white;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+    padding: 20px 0;
+}
+
+.pais{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid hsl(227, 10%, 46%);
+}
+
+img, .perfil p{
+    margin-bottom: 20px;
+}
+
 
 img {
     width: 60px;
     border-radius: 50%;
     height: 60px;
     object-fit: cover;
-    margin: 20px;
-}
-
-.nome{
-    font-weight: 700;
-}
-
-.pais{
-    padding: 20px 0;
-    text-align: center;
-    width: 100%;
-    border-bottom: 2px solid hsl(220, 2%, 76%);
 }
 
 .dados{
-    flex-direction: row;
-
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
-.dados .flex{
-    padding: 20px;
+p{
+    font-weight: 700;
 }
 
-strong{
-    color: black;
+span{
+    color: hsl(227, 10%, 46%);
 }
